@@ -1,0 +1,28 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "properties": {
+        "uid": {
+            "type": "string",
+            "description": "The user identifier for the linked provider."
+        },
+        "email": {
+            "type": "string",
+            "description": "The email for the linked provider."
+        },
+        "display_name": {
+            "type": "string",
+            "description": "The display name for the linked provider."
+        },
+        "photo_URL": {
+            "type": "string",
+            "description": "The photo URL for the linked provider."
+        },
+        "provider_id": {
+            "type": "string",
+            "description": "The linked provider ID (e.g. \"google.com\" for the Google provider)."
+        }
+    },
+    "additionalProperties": true,
+    "type": "object",
+    "description": "User's info at the identity provider"
+}

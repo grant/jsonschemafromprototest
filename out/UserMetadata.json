@@ -1,0 +1,18 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "properties": {
+        "created_at": {
+            "type": "string",
+            "description": "The date the user was created.",
+            "format": "date-time"
+        },
+        "last_signed_in_at": {
+            "type": "string",
+            "description": "The date the user last signed in.",
+            "format": "date-time"
+        }
+    },
+    "additionalProperties": true,
+    "type": "object",
+    "description": "Additional metadata about the user."
+}

@@ -17,3 +17,9 @@ Gen:
 ```sh
 ./gen.sh
 ```
+
+TODO:
+
+"google.protobuf.Struct" causes infinite loop. Need to change to object
+replace with map<string, string>
+And something else
