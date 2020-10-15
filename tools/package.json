@@ -6,6 +6,5 @@
     "start": "node ."
   },
   "dependencies": {
-    "camelcase-keys-deep": "^0.1.0"
   }
 }
