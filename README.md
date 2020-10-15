@@ -23,3 +23,11 @@ TODO:
 "google.protobuf.Struct" causes infinite loop. Need to change to object
 replace with map<string, string>
 And something else
+
+## Tools
+
+To convert keys from snake_case to camelCase, use a Node script:
+
+```
+IN=../out/StorageObjectData.json node index.js
+```
