@@ -1,0 +1,23 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "properties": {
+        "data": {
+            "type": "string",
+            "description": "The binary data in the message."
+        },
+        "attributes": {
+            "additionalProperties": {
+                "type": "string"
+            },
+            "type": "object",
+            "description": "Attributes for this message."
+        },
+        "message_id": {
+            "type": "string",
+            "description": "ID of this message, assigned by the server when the message is published.\n Guaranteed to be unique within the topic."
+        }
+    },
+    "additionalProperties": true,
+    "type": "object",
+    "description": "A message published to a topic."
+}

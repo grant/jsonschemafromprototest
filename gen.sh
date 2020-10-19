@@ -86,6 +86,19 @@ fi
 # --proto_path=googleapis/ \
 # google-cloudevents/proto/google/events/cloud/scheduler/v1/data.proto
 
+# $PROTOC \
+# --jsonschema_out=out \
+# --proto_path=google-cloudevents/proto/ \
+# --proto_path=googleapis/ \
+# google-cloudevents/proto/google/events/cloud/storage/v1/data.proto
+
+# Good
+# $PROTOC \
+# --jsonschema_out=out \
+# --proto_path=google-cloudevents/proto/ \
+# --proto_path=googleapis/ \
+# google-cloudevents/proto/google/events/cloud/pubsub/v1/data.proto
+
 $PROTOC \
 --jsonschema_out=out \
 --proto_path=google-cloudevents/proto/ \
